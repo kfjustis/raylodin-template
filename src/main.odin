@@ -35,7 +35,7 @@ main :: proc() {
     }
 
     rl.SetConfigFlags({.WINDOW_RESIZABLE, .VSYNC_HINT})
-    rl.InitWindow(window.WINDOW_WIDTH, window.WINDOW_HEIGHT, "Phantom Desert")
+    rl.InitWindow(window.WINDOW_WIDTH, window.WINDOW_HEIGHT, "Raylodin Template")
     defer rl.CloseWindow()
     rl.TraceLog(rl.TraceLogLevel.DEBUG, sh.join_to_cstring({"Current working directory: ",
                                                             string(rl.GetWorkingDirectory())}))

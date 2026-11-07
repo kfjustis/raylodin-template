@@ -63,6 +63,7 @@ main :: proc() {
 
             rl.BeginTextureMode(screen.render_target)
                 rl.ClearBackground(rl.BLUE)
+                rl.DrawText("Press F1 to toggle debug window.", 20, 20, 20, rl.WHITE)
             rl.EndTextureMode()
 
             window.draw_pixel_screen(&screen)
